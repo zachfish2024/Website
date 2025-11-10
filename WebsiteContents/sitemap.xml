@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?> <!--XML declaration-->
+
+<urlset xmlms="http://www.sitemaps.org/schemes/sitemap/0.9">
+    <url>
+        <loc>https://www.zachengineering.gmod.com/home</loc>
+        <lastmod>2025-11-10</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+</urlset> 

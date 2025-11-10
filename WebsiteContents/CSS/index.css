@@ -1,0 +1,102 @@
+.landingtext1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3cqmax;
+    text-align: center;
+    position: relative;
+    bottom: 15cqmin;
+    color: white;
+    text-shadow: 
+    -1px 1px 10px black;
+    
+}
+.landingtext2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2cqmax;
+    text-align: center;
+    position: relative;
+    bottom: 16.5cqmin;
+    color: white;
+    text-shadow: 
+    -1px 1px 10px black;
+}
+
+.introbox{
+    background-color: gray;
+    height: 8cqi;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.intro{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 4cqi;
+    font-weight: bold;
+    position: relative;
+    margin: 1%;
+    color: black;
+    
+}
+.parabox{
+    background-color: rgba(155, 155, 155, 0.4);
+    border: 2px gray;
+    border-radius: 5px;
+    height: 100%;
+    width: 98%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    position: relative;
+    bottom: 15px;
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    box-shadow: 1px 2px -3px;
+
+}
+.paradesc1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2cqmax;
+    font-weight: normal;
+    position: relative;
+    margin: 1%;
+    line-height: 65px;
+    color: black;
+    
+}
+.paradesc2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3.5cqmax;
+    font-weight: lighter;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    line-height: 5cqmax;
+    letter-spacing: 25px;
+    color: black;
+    text-shadow: -1px 1px 2px black;
+    
+}
+
+#whitespace{
+    margin-top: 20%;
+}
+#heroimage{
+    margin: 0;
+    margin-bottom: -15cqmin;
+    width: 100%;
+    object-fit: fill;
+}
+#herotext{
+    margin: 0;
+    position: relative;
+    top: 20%;
+    object-fit: fill;
+}
