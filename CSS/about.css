@@ -1,0 +1,108 @@
+  main{
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  #container1 > h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3cqb;
+    font-weight: bold;
+    text-align: center;
+  }
+  #container2 > h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3cqb;
+    font-weight: bold;
+    text-align: center;
+  }
+  #container3 > h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 4cqmin;
+    font-weight: bold;
+    text-align: center;
+  }  
+  #container1 > p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4cqmin;
+    font-weight: normal;
+    text-align: center;
+  }
+  #container2 > p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4cqmin;
+    font-weight: normal;
+    text-align: justify;
+    text-align: center;
+  }
+  #container3 > p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4cqmin;
+    font-weight: normal;
+    text-align: justify;
+    text-align: center;
+  }
+  
+  #container1 {
+    background-color: #c4c4c4;
+    border-radius: 10px;
+    padding: 2cqmin;
+    text-align: left;
+  }
+  #container2 {
+    grid-area: area2;
+    background-color: #c4c4c4;
+    border-radius: 10px;
+    padding: 4cqmin;
+    text-align: left;
+  }
+  #container3 {
+    grid-area: area3;
+    background-color: #c4c4c4;
+    border-radius: 10px;
+    padding: 6cqmin;
+    text-align: left;
+  }
+  /* colour the text of links black */
+  main > div > a {
+    color: #8a8a8a;
+    font-size: 18px;
+  }
+  
+  /* Change the colour of links on hover using mouse */
+  main > div > a:hover {
+    background-color: #8a8a8a;
+    color: #E3DFDE;
+  }
+  
+  /* Change the color of links on focus using tab button */
+  main > div > a:focus {
+    background-color: #8a8a8a;
+    color: #E3DFDE;
+    outline: none;
+  }
+  
+  main {
+    background-color: rgb(235, 235, 235);
+    display: grid;
+    grid-template-areas:
+    '.'
+    'area2'
+    'area2'
+      'area3'
+      'area3'
+      'area3';
+    
+    grid-gap: 10px;
+    padding: 5px;
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+  
+    main {
+      grid-template-areas:
+      '.     area3 '
+      'area2 area3 '
+      'area2 area3 ';
+    }
+  
+  }
