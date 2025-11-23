@@ -4,38 +4,38 @@
   }
   #container1 > h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 3cqb;
+    font-size: calc(1vw + 1.5vmax);
     font-weight: bold;
     text-align: center;
   }
   #container2 > h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 3cqb;
+    font-size: calc(1vw + 1.5vmax);
     font-weight: bold;
     text-align: center;
   }
   #container3 > h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 4cqmin;
+    font-size: calc(1vw + 1.5vmax);
     font-weight: bold;
     text-align: center;
   }  
   #container1 > p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 4cqmin;
+    font-size: 2vmax;
     font-weight: normal;
     text-align: center;
   }
   #container2 > p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 4cqmin;
+    font-size: 2vmax;
     font-weight: normal;
     text-align: justify;
     text-align: center;
   }
   #container3 > p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 4cqmin;
+    font-size: 2vmax;
     font-weight: normal;
     text-align: justify;
     text-align: center;
@@ -44,21 +44,21 @@
   #container1 {
     background-color: #c4c4c4;
     border-radius: 10px;
-    padding: 2cqmin;
+    padding: 5px;
     text-align: left;
   }
   #container2 {
     grid-area: area2;
     background-color: #c4c4c4;
     border-radius: 10px;
-    padding: 4cqmin;
+    padding: 5px;
     text-align: left;
   }
   #container3 {
     grid-area: area3;
     background-color: #c4c4c4;
     border-radius: 10px;
-    padding: 6cqmin;
+    padding: 6vw;
     text-align: left;
   }
   /* colour the text of links black */

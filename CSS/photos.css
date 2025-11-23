@@ -29,7 +29,7 @@ html body{
 	margin-bottom: 20px;
 	margin-top: 0px;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	font-size: 5cqb;
+	font-size: calc(3vw + 4vmin);
 	text-align: center;
 }
 /* For desktops */
@@ -43,6 +43,9 @@ html body{
 	padding: 0 6px;
 	flex-wrap: nowrap;
 	}
+	.font {
+		font-size: calc(1vw + 4vh);	
+	}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -50,6 +53,4 @@ html body{
 	.column {
 		max-width: 25%;
 	}
-
 }
-
